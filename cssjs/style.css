@@ -170,11 +170,11 @@ html,body {
 }
 
 
-@media screen and (max-width:480px) {
+/* @media screen and (max-width:480px) {
 	.play_reel{
-		display: block;
+		display: none;
 	}
-}
+} */
 
 
 /* about */
@@ -274,6 +274,8 @@ html,body {
 	background-size: 140px;
 }
 
+
+
 .work-img img{
 	display: block;
 	margin: 5px auto;
@@ -366,16 +368,17 @@ html,body {
 		font-size: 15px;
 	}
 
-	.svg-mail{
-		display: none;
-	}
+    .svg-mail:hover{
+        transform: scale(1.0);
+        transition: 0.2s ease;
+      }
 
 	.mailadress{
 		font-size: 20px;
 	}
 
 	.mailadress p{
-		display: none;
+		display: block;
 	}
 
 	.REELvimeo{
@@ -435,8 +438,8 @@ html,body {
 }
 
 
-@media screen and (max-width:480px) {
+/* @media screen and (max-width:480px) {
 	.reel_container{
-		display: block;
+		display: none;
 	}
-}
+} */
